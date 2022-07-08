@@ -1,3 +1,14 @@
 h1{
     color: #ff0000
 }
+p{
+    color: #ff0000
+}
+.container{
+    display: flex;
+    justify-content: center;
+   }
+.centerText{
+    display: flex;
+    justify-content: center;
+}
