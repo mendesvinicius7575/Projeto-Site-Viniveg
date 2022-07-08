@@ -4,7 +4,7 @@ $(document).ready( function(){
 
     //DELAY TEMPO PARA EXECUTAR DEPOIS QUE A PAGINA CARREGA
     //ANIMATE TEMPO DE ANIMAÇÃO
-    $(this).delay(5000).animate({'opacity':'1'},1500);
+    $(this).delay(2000).animate({'opacity':'1'},90000);
 
     }); 
       
