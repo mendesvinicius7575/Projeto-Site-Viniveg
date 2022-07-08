@@ -12,3 +12,12 @@ p{
     display: flex;
     justify-content: center;
 }
+#objeto{
+    background-color: #ddd;
+    width:50%;
+    margin:auto;
+    }
+    
+    .style{
+    text-align: center;
+    }
