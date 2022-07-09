@@ -1,8 +1,16 @@
 h1{
-    color: #ff0000
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #09619c
 }
-p{
-    color: #ff0000
+h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #09619c
 }
 .container{
     display: flex;
@@ -12,12 +20,24 @@ p{
     display: flex;
     justify-content: center;
 }
-#objeto{
-    background-color: #ddd;
-    width:50%;
-    margin:auto;
-    }
-    
-    .style{
+.centerTextUm{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    text-indent: 20px;
+    font-style: italic;
+    font-size: 20px;
+    justify-content: center;
     text-align: center;
-    }
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #09619c
+    
+}
+.container img {
+        max-width:500px;
+        max-height:550px;
+        width: auto;
+        height: auto;
+}
