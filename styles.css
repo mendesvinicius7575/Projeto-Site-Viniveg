@@ -12,17 +12,25 @@ h2{
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #09619c
 }
-.container{
-    display: flex;
-    justify-content: center;
-   }
-.centerText{
-    display: flex;
+h3{
+    font-style: italic;
+    font-size: 15px;
+    color: #09619c;
+}
+.container{    
+    text-align: center;
     justify-content: center;
 }
-.centerTextUm{
+.centerImg{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.centerText{
     display: flex;
+    text-align: center;
     justify-content: center;
+    line-height: 0.9;
 }
 p{
     display: flex;
@@ -31,6 +39,7 @@ p{
     font-size: 20px;
     justify-content: center;
     text-align: center;
+    line-height: 1;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #09619c
     
