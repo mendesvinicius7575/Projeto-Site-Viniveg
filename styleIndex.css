@@ -22,6 +22,8 @@ h3{
     justify-content: center;
 }
 .centerImg{
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 20px;
 }
@@ -52,7 +54,6 @@ p{
     width: 560px;
     height: 460px;
     overflow: hidden;
-    margin-left: 5.42%;
 }  
 .zoomCroquete img {
     width: 100%;
@@ -65,8 +66,6 @@ p{
     width: 560px;
     height: 460px;
     overflow: hidden;
-    margin-left: 35.5%;
-    margin-top: -24.4%;
 }  
 .zoomLentilha img {
     width: 100%;
@@ -79,8 +78,6 @@ p{
     width: 560px;
     height: 460px;
     overflow: hidden;
-    margin-left: 65.5%;
-    margin-top: -24.4%;
 }  
 .zoomMandioquinha img {
     width: 100%;
