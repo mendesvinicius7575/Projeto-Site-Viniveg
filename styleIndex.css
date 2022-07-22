@@ -6,88 +6,51 @@ h1{
     font-weight: bold;
     font-size: 35px;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #09619c
+    color: #489fd1
 }
 h2{
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #09619c
+    color: #489fd1
 }
 h3{
     font-style: italic;
     font-size: 15px;
-    color: #09619c;
+    color: #489fd1;
 }
-.container{    
-    text-align: center;
-    justify-content: center;
-}
-.centerImg{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 20px;
-}
+
 .centerText{
-    display: flex;
     text-align: center;
     justify-content: center;
     line-height: 0.9;
 }
 .textoCentral{
-    text-indent: 20px;
+    
     font-style: italic;
     font-size: 20px;
     justify-content: center;
     text-align: center;
     line-height: 1;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #09619c
+    color: #489fd1;
+    background-color: #ffa70536;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
     
 }
-.container img {
-    max-width:500px;
-    max-height:550px;
+div{
+    text-align: center;
 }
+p{
+}
+.posicionando{
+    border-radius: 20px;
+    margin: auto;
+    border: 2px solid #489fd1;
+    width: 560px;
+    height: 460px;
 
-/*Efeito para fazer zoom na imagem C */
-.zoomCroquete {
-    width: 560px;
-    height: 460px;
-    overflow: hidden;
-}  
-.zoomCroquete img {
-    width: 100%;
-    transition: 1.1s all ease-in-out;
-}
-.zoomCroquete:hover img {
-    transform: scale(1.1);
-}
-/*Efeito para fazer zoom na imagem L */
-.zoomLentilha {
-    width: 560px;
-    height: 460px;
-    overflow: hidden;
-}  
-.zoomLentilha img {
-    width: 100%;
-    transition: 1.1s all ease-in-out;
-}
-.zoomLentilha:hover img {
-    transform: scale(1.1);
-}
-/*Efeito para fazer zoom na imagem M */
-.zoomMandioquinha {
-    width: 560px;
-    height: 460px;
-    overflow: hidden;
-}  
-.zoomMandioquinha img {
-    width: 100%;
-    transition: 1.1s all ease-in-out;
-}
-.zoomMandioquinha:hover img {
-    transform: scale(1.1);
 }
