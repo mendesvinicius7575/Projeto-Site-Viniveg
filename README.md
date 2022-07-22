@@ -5,7 +5,7 @@
 </div>
 
 <br>
-Em <strong>2018</strong> abri uma empresa de <strong>Alimentos Congelados Veganos</strong>, a <strong>Viniveg</strong>, e um grande diferencial que faltou nela era a possibilidade de meus clientes
+Em 2018 <strong>fundei</strong> a empresa de <strong>Alimentos Congelados Veganos</strong>, a <strong>Viniveg</strong>, e um grande diferencial que faltou nela era a possibilidade de meus clientes
 acessarem um site próprio da empresa.
 Portanto resolvi criar um site para minha própria empresa. 
 Desta forma pude aplicar meus conhecimentos em HTML, CSS e JavaScript em um projeto real:
