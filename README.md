@@ -1,4 +1,4 @@
-<div align="center"># Projeto Website para a Empresa ViniVeg</div>
+<h1 align="center"># Projeto Website para a Empresa ViniVeg</h1>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/108685945/179240431-61ad127a-ce21-488a-b102-42717dcbf3de.png" width="500px"/>
