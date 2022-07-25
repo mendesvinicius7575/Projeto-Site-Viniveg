@@ -1,57 +1,40 @@
-body{
-    background-color: #ffffff;
-}
-h1{
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'namao';
+    src: url('static/Caveat-Regular.ttf') format('truetype');
+    font-weight:bolder;
     font-style: italic;
-    font-weight: bold;
-    font-size: 35px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #489fd1;
-    height: 35px;
-}
-h2{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #489fd1
-}
-h3{
-    font-style: italic;
-    font-size: 15px;
-    color: #489fd1;
 }
 
-.centerText{
-    text-align: center;
-    justify-content: center;
-    line-height: 0.9;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.textoCentral{
-    
-    font-style: italic;
-    font-size: 20px;
-    justify-content: center;
-    text-align: center;
-    line-height: 1;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #489fd1;
-    background-color: #ffa70536;
-    padding: 15px;
-    border-radius: 15px;
-    display: inline-block;
-    
-}
-div{
-    text-align: center;
-}
-p{
-}
-.posicionando{
-    border-radius: 20px;
+
+main{
     margin: auto;
-    border: 2px solid #489fd1;
-    width: 560px;
-    height: 460px;
-
+    max-width: 1920px;
+}
+img{
+    width: 100%;
+}
+header{
+    display: relative;
+}
+header > h1{
+    text-align: center;
+    padding-top: 20px;
+    font: normal bold 50px 'namao';
+    line-height: 50px;
+}
+header > p{
+    text-align: center;
+    padding-top: 20px;
+    font: normal normal 35px 'namao';
+    line-height: 30px;
+    max-width: 500px;
+}
+#cen{
+    margin: auto;
 }
