@@ -7,6 +7,12 @@
     font-style: italic;
 }
 
+:root{
+    --cor1: #5c92b6;
+    --cor2: #ce7d3e;
+    --cor3: #ce9e3c;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -14,14 +20,11 @@
 
 main{
     margin: auto;
-    max-width: 1920px;
 }
-img{
+img#titulo{
     width: 100%;
 }
-header{
-    display: relative;
-}
+
 header > h1{
     text-align: center;
     padding-top: 20px;
@@ -30,11 +33,16 @@ header > h1{
 }
 header > p{
     text-align: center;
+    padding-bottom: 20px;
     padding-top: 20px;
     font: normal normal 35px 'namao';
     line-height: 30px;
-    max-width: 500px;
+    max-width: 670px;
 }
-#cen{
+#centralizarp{
+    margin: auto;
+}
+.tamanhonugs{
+    border-radius: 20px;
     margin: auto;
 }
