@@ -18,9 +18,7 @@
     margin: 0px;
 }
 
-main{
-    margin: auto;
-}
+
 img#titulo{
     width: 100%;
 }
@@ -38,11 +36,16 @@ header > p{
     font: normal normal 35px 'namao';
     line-height: 30px;
     max-width: 670px;
-}
-#centralizarp{
+    display: block;
     margin: auto;
 }
-.tamanhonugs{
-    border-radius: 20px;
+
+main img.tamanho{
+
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
+    width: 40%;
+    display: block;
     margin: auto;
+    border-radius: 50px;
 }
