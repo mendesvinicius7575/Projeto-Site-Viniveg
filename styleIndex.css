@@ -26,25 +26,49 @@ img#titulo{
 header > h1{
     text-align: center;
     padding-top: 20px;
-    font: normal bold 50px 'namao';
+    font-family: 'namao';
+    font-size: 50px;
     line-height: 50px;
 }
+
 header > p{
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
     font: normal normal 35px 'namao';
     line-height: 30px;
-    max-width: 670px;
     display: block;
     margin: auto;
+    
+    max-width: 800px;
+    padding: 30px;
+}
+@media(max-width: 350px){
+    header > h1{
+        font-size: 25px;
+        
+        line-height: 25px;
+    }
+    header > p{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-family: 'namao';
+        font-size: 25px;
+        line-height: 25px;
+        display: block;
+        margin: auto;
+        
+        max-width: 800px;
+        padding: 30px;
+    }
 }
 
 main img.tamanho{
 
     margin-bottom: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
-    width: 40%;
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 50px;
